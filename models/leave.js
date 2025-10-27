@@ -10,11 +10,11 @@ const leaveSchema = new mongoose.Schema({
     required: true,
   },
   startDate: {
-    type: String,  // 👈 change from Date to String (frontend sends date as "26-10-2025")
+    type: String,  
     required: true,
   },
   endDate: {
-    type: String,  // 👈 same here
+    type: String,  
     required: true,
   },
   reason: {

@@ -1,5 +1,5 @@
 const express = require("express");
-const Leave = require("../models/Leave");
+const Leave = require("../models/leave");
 
 const router = express.Router();
 
